@@ -42,6 +42,17 @@ export const AboutPageTemplate = ({
               </h2>
               <PageContent className="content" content={content} />
             </div>
+            <a href="https://sustain.life" style="display: inline-block; position: relative; z-index: 1">
+              <span style="display: inline-block"
+                ><object
+                  style="position: relative; z-index: -1"
+                  data="https://prorotypeimages.blob.core.windows.net/sustaintagicons/Area-ReduceWaste_test.svg"
+                  type="image/svg+xml"
+                  width="200"
+                  height="200"
+                ></object>
+              </span>
+            </a>
           </div>
         </div>
       </div>
